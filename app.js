@@ -1,1 +1,9 @@
-console.log("Let's get this party started!");
+"use strict";
+
+async function submitForm() {
+  let searchTerm = $('#search-term').val();
+
+  const params = new URLSearchParams({searchTerm})
+}
+
+$("#form").on('submit', '#input', submitForm);
